@@ -1,17 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial;
-}
-
-main{
-    width: 70%;
-    margin: auto;
 }
 
 /*First Section*/
 
 .container{
     width: 900px;
-    margin-bottom: 30px;
+    margin: 30px auto;
+}
+
+.box{
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px 30px;
+}
+
+.product img{
+    width: 95%;
 }
