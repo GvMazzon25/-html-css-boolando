@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -103,8 +104,16 @@
 
 /*Images*/
 
-img:hover{
-    background-image: url(/img/1b.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
+.imgbox{
+    position: absolute;
+    top: 0px;
 }
+
+.img2{
+    display: none;
+}
+
+.product:hover .img2{
+    display: block;
+}
+
