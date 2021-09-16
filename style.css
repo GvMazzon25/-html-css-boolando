@@ -73,11 +73,21 @@
     position: absolute;
 }
 
+/*Position*/
+
 .position{
     left: 0;
     bottom: 70px;
     padding: 3px 5px;
 }
+
+.position2{
+    left: 50px;
+    bottom: 70px;
+    padding: 3px 5px;
+ }
+
+/*Colors*/
 
 .red{
     background-color: rgba(235, 0, 55, 1);
@@ -88,9 +98,7 @@
     background-color: rgba(0, 135, 90, 1);
 }
 
-.position2{
-   left: 50px;
-}
+
 
 
 /*Images*/
