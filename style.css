@@ -51,7 +51,7 @@
     font-weight: bold;
 }
 
-.sale{
+.exprice{
     font-weight: normal;
     color: black;
     text-decoration: line-through;
@@ -67,5 +67,36 @@
     padding: 5px 10px;
 }
 
+.block{
+    display: inline-block;
+    font-size: 15px;
+    position: absolute;
+}
+
+.position{
+    left: 0;
+    bottom: 70px;
+    padding: 3px 5px;
+}
+
+.red{
+    background-color: rgba(235, 0, 55, 1);
+}
 
 
+.green{
+    background-color: rgba(0, 135, 90, 1);
+}
+
+.position2{
+   left: 50px;
+}
+
+
+/*Images*/
+
+img:hover{
+    background-image: url(/img/1b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
