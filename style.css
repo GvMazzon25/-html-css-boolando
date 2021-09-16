@@ -23,11 +23,49 @@
     margin-bottom: 5px;
 }
 
+/*Products*/
+
 .product > span{
     display: block;
 }
 
+.box{
+    position: relative;
+}
 
-.label span:nth-of-type(1){
+
+
+/*Label*/
+
+.product span:nth-of-type(1){
     font-size: 13px;
 }
+
+.product span:nth-of-type(2){
+    font-weight: bold;
+}
+
+.price{
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+}
+
+.sale{
+    font-weight: normal;
+    color: black;
+    text-decoration: line-through;
+}
+
+.like{
+    display: inline-block;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    padding: 5px 10px;
+}
+
+
+
